@@ -119,7 +119,7 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
     Title    = "Phantom Forces ESP";
-    Text     = "Press 5 To Toggle Esp";
+    Text     = "Press 5 To Toggle ESP";
     Duration = 10;
     Button1  = "Ok";
 })
