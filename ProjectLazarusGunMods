@@ -65,10 +65,9 @@ CharacterAdded(LocalPlayer.Character)
 
 local CoreGui = game:GetService("StarterGui")
 
-CoreGui:SetCore("SendNotification", {
+game.StarterGui:SetCore("SendNotification", {
     Title    = "Project Lazarus";
     Text     = "This Script Grants You: Unlimited Ammo and Instant Kill";
     Duration = 10;
-    --Callback here
     Button1 = "Ok";
 })
